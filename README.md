@@ -230,4 +230,52 @@ This project leverages machine learning and statistical techniques to analyze an
 Best balance between simplicity and prediction consistency.
 
 **Final equation:**
+AgentBonus = (-0.0022) * Intercept
++ (0.1419) * Age
++ (0.1484) * CustTenure
++ (0.121) * MonthlyIncome
++ (0.0861) * ExistingPolicyTenure
++ (0.5911) * SumAssured
++ (0.0752) * DesignationOrdinal
+
+
+
+---
+
+## Business Implications
+
+### Agent Incentivization
+- Design bonus structures prioritizing Sum Assured and Customer Tenure.
+- Focus on reselling policies to long-term customers.
+
+### Regional Focus
+- Improve performance in Eastern and Southern regions using targeted market surveys.
+
+### Channel Strategy
+- Offer better incentives to third-party and online channels to boost sales.
+
+### Upskilling Plans
+
+- **Plan 1 (Product Knowledge):** Enhance product understanding and sales techniques.
+- **Plan 2 (Shadowing):** Low performers mirror high performers for on-the-job learning.
+
+---
+
+## Tools and Libraries
+
+- **Programming Language:** Python
+- **Libraries:** pandas, numpy, matplotlib, seaborn, sklearn, xgboost
+- **Environment:** Jupyter Notebook
+
+---
+
+## Future Enhancements
+
+- Incorporate advanced ensemble models to improve accuracy.
+- Explore customer segmentation for personalized policy recommendations.
+- Deploy the model into production using APIs for real-time bonus predictions.
+
+---
+
+For detailed analysis, refer to the project report.
 
