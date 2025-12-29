@@ -278,4 +278,3 @@ AgentBonus = (-0.0022) * Intercept
 ---
 
 For detailed analysis, refer to the project report.
-
